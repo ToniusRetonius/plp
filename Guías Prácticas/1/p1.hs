@@ -77,4 +77,42 @@ foldl' fn acc (x:xs) = foldl' fn (fn acc x) xs
 sumasParciales :: (Num a) => [a] -> [a]
 sumasParciales xs = foldl (\y x -> if null y then [x] else y ++ [last y + x]) [] xs
 
+sumaAlt :: [Int] -> Int
+sumaAlt = foldr' (-) 0
 
+
+---- no funciona :
+sumaAlt' :: [Int] -> Int
+sumaAlt' = foldl' (flip (-)) 0
+
+
+-- Ejercicio 4
+
+
+
+-- Ejercicio 5 
+elementosEnPosicionesPares :: [a] -> [a]
+elementosEnPosicionesPares [] = []
+elementosEnPosicionesPares (x:xs) = 
+        if null xs
+        then [x]
+        else x : elementosEnPosicionesPares (tail xs)
+
+entrelazar :: [a] -> [a] -> [a]
+entrelazar [] = id
+entrelazar (x:xs) = 
+        \ys -> if null ys
+                then x : entrelazar xs []
+                else x : head ys : entrelazar xs (tail ys)
+
+
+
+-- ej t2
+data AB a = Nil | Bin (AB a) a (AB a)
+
+foldAB :: b -> (b -> a -> b -> b) -> AB a -> b
+foldAB cNil cBin Nil = cNil
+foldAB cNil cBin (Bin i r d) = cBin (foldAB cNil cBin i) r (foldAB cNil cBin d)
+
+mapAB :: (a -> b) -> AB a -> AB b
+mapAB f = foldAB Nil (Bin . (mapAB f) . (mapAB f) f)
