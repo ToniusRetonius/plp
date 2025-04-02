@@ -1,0 +1,21 @@
+cabal-version:      3.0
+name:               tp
+version:            0.1.0.0
+author:             PLP
+maintainer:         plp-docentes@dc.uba.ar
+build-type:         Simple
+
+common nowarnings
+    ghc-options: -w
+
+executable tp
+    import:           nowarnings
+    default-language: Haskell2010
+    other-modules:
+        Documento
+        PPON
+    hs-source-dirs:   src
+    main-is:          Main.hs
+    build-depends:
+        base,
+        HUnit >=1.6.2.0 && <1.7
