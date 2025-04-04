@@ -89,7 +89,6 @@ sumaAlt' = foldl' (flip (-)) 0
 -- Ejercicio 4
 
 
-
 -- Ejercicio 5 
 elementosEnPosicionesPares :: [a] -> [a]
 elementosEnPosicionesPares [] = []
@@ -106,13 +105,100 @@ entrelazar (x:xs) =
                 else x : head ys : entrelazar xs (tail ys)
 
 
+-- Ejercicio 6
+recr :: (a -> [a] -> b -> b) -> b -> [a] -> b
+recr _ z [] = z
+recr f z (x:xs) = f x xs (recr f z xs)
 
--- ej t2
+sacarUna :: Eq a => a -> [a] -> [a]
+sacarUna a = recr (\x xs rec -> if x == a then xs else x : rec) []
+
+sacarUna' a = foldr (\x rec -> if x == a then rec else x : rec) []
+
+-- casos : 
+-- 1 [2] => [1,2]
+-- 1 [0,2] => [0,1,2]
+-- 3 [0,2] => [0,2,3]
+
+insertarOrdenado :: Ord a => a -> [a] -> [a]
+insertarOrdenado a = recr (\x xs rec -> 
+        if xs == [] then 
+                if x < a then x : a : rec 
+                else a : x : rec 
+        else if a < head xs then x : a : xs 
+        else if a > head xs then x : xs 
+        else x: rec) []
+
+-- Ejercicio 7
+mapPares :: (a -> b -> c) -> [(a,b)] -> [c]
+mapPares f = map (uncurry f)
+
+
+-- armarPares :: [a] -> [b] -> [(a,b)]
+-- armarPares = foldr (\x (y:ys) rec -> (x,y) : rec)
+
+
+-- Ejercicio 9
+
+foldNat :: (Int -> b -> b) -> b -> Int -> b
+foldNat _ z 0 = z
+foldNat f z n = f n (foldNat f z (n-1))
+
+potenciacion n = foldNat (\x rec -> n * rec) 1
+
+-- Ejercicio 11
+data Polinomio a = X | Cte a | Suma (Polinomio a) (Polinomio a) | Prod (Polinomio a) (Polinomio a) deriving (Show)
+
+foldPoli fX fCte fSuma fProd poli = case poli of
+        X -> fX
+        Cte a -> fCte a
+        Suma i d -> fSuma (rec i) (rec d)
+        Prod i d -> fProd (rec i) (rec d)
+        where rec = foldPoli fX fCte fSuma fProd
+
+evaluar a = foldPoli a id (+) (*)
+
+-- Ejercicio 12
 data AB a = Nil | Bin (AB a) a (AB a)
-
 foldAB :: b -> (b -> a -> b -> b) -> AB a -> b
-foldAB cNil cBin Nil = cNil
-foldAB cNil cBin (Bin i r d) = cBin (foldAB cNil cBin i) r (foldAB cNil cBin d)
+foldAB fNIl fBin t = case t of 
+        Nil -> fNIl
+        Bin i r d -> fBin (rec i) r (rec d)
+        where rec = foldAB fNIl fBin 
 
-mapAB :: (a -> b) -> AB a -> AB b
-mapAB f = foldAB Nil (Bin . (mapAB f) . (mapAB f) f)
+esNil :: AB a -> Bool
+esNil Nil = True
+esNil _ = False
+
+altura = foldAB (const 1) (\reci _ recd-> 1 + max reci recd)
+
+cantNodos = foldAB (const 1) (\reci _ recd -> 1 + recIzq + recd)
+
+-- Ejercicio 13
+
+
+-- Ejercicio 15
+data RoseTree a = Rose a [RoseTree a]
+
+rose = Rose 2 [Rose 3 [], Rose 4 [Rose 5 []]]
+
+foldRose :: (a -> [b] -> b) -> RoseTree a -> b
+foldRose f (Rose r rs) = f r (map (foldRose f) rs)
+  
+hojasRose :: RoseTree a -> [a]
+hojasRose = foldRose (\r rec -> if null rec
+                                then [r]
+                                else concat rec)
+
+ramasRose :: RoseTree a -> [[a]]
+ramasRose = foldRose (\r rec -> if null rec
+                                then [[r]]
+                                else map (r:) (concat rec))
+
+tamañoRose :: RoseTree a -> Int
+tamañoRose = foldRose (\_ rec -> 1 + sum rec)
+
+alturaRose :: RoseTree a -> Int
+alturaRose = foldRose (\_ rec -> if null rec
+                                 then 1
+                                 else 1 + maximum rec)

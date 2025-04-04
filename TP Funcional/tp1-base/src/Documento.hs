@@ -28,21 +28,43 @@ texto t | '\n' `elem` t = error "El texto no debe contener saltos de línea"
 texto [] = Vacio
 texto t = Texto t Vacio
 
--- foldDoc :: ... PENDIENTE: Ejercicio 1 ...
-foldDoc = error "PENDIENTE: Ejercicio 1"
+foldDoc :: b -> (String -> b -> b) -> (Int -> b -> b) -> Doc -> b
+foldDoc fVacio fTexto fLinea doc = 
+  case doc of
+  Vacio -> fVacio
+  Texto s d -> fTexto s (foldDoc fVacio fTexto fLinea d)
+  Linea i d' -> fLinea i (foldDoc fVacio fTexto fLinea d')
 
 -- NOTA: Se declara `infixr 6 <+>` para que `d1 <+> d2 <+> d3` sea equivalente a `d1 <+> (d2 <+> d3)`
 -- También permite que expresiones como `texto "a" <+> linea <+> texto "c"` sean válidas sin la necesidad de usar paréntesis.
-infixr 6 <+>
+infixr 6 <+> 
+
+final :: Doc -> Bool
+final (Texto s d) = if d == Vacio then True else False
+final (Linea i d) = False
+final Vacio = False
+
+unirTextos :: String -> Doc -> Doc
+unirTextos s (Texto s' d) = Texto (s++s') d
 
 (<+>) :: Doc -> Doc -> Doc
-d1 <+> d2 = error "PENDIENTE: Ejercicio 2"
-
+(<+>) d1 d2 = foldDoc 
+  d2 
+  (\text rec -> if final rec then unirTextos text rec else Texto text rec) 
+  (\line rec -> Linea line rec) 
+  d1
+  
 indentar :: Int -> Doc -> Doc
-indentar i = error "PENDIENTE: Ejercicio 3"
+indentar i = if i < 0 then error "No se puede indentar negativo" else foldDoc 
+  Vacio 
+  (\text rec -> Texto text rec) 
+  (\line rec -> Linea (line + i) rec)  
 
 mostrar :: Doc -> String
-mostrar = error "PENDIENTE: Ejercicio 4"
+mostrar = foldDoc 
+  "" 
+  (\text rec -> text ++ rec) 
+  (\line rec -> "\n" ++ replicate line ' ' ++ rec)
 
 -- | Función dada que imprime un documento en pantalla
 
