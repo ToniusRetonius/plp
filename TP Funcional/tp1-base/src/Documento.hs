@@ -32,8 +32,9 @@ foldDoc :: b -> (String -> b -> b) -> (Int -> b -> b) -> Doc -> b
 foldDoc fVacio fTexto fLinea doc = 
   case doc of
   Vacio -> fVacio
-  Texto s d -> fTexto s (foldDoc fVacio fTexto fLinea d)
-  Linea i d' -> fLinea i (foldDoc fVacio fTexto fLinea d')
+  Texto s d -> fTexto s (rec d)
+  Linea i d' -> fLinea i (rec d')
+  where rec = foldDoc fVacio fTexto fLinea
 
 -- NOTA: Se declara `infixr 6 <+>` para que `d1 <+> d2 <+> d3` sea equivalente a `d1 <+> (d2 <+> d3)`
 -- También permite que expresiones como `texto "a" <+> linea <+> texto "c"` sean válidas sin la necesidad de usar paréntesis.
@@ -58,19 +59,13 @@ indentar :: Int -> Doc -> Doc
 indentar i = if i < 0 then error "No se puede indentar negativo" else foldDoc 
   Vacio 
   (\text rec -> Texto text rec) 
-  (\line rec -> Linea (line + i) rec)  
+  (\line rec -> Linea (line + i) rec)  --- preguntar si hago if line == 0 then Linea i rec else Linea (line + i) rec (resuelve pero después rompe)
 
 mostrar :: Doc -> String
 mostrar = foldDoc 
   "" 
   (\text rec -> text ++ rec) 
   (\line rec -> "\n" ++ replicate line ' ' ++ rec)
-
--- | Función dada que imprime un documento en pantalla
-
--- ghci> imprimir (Texto "abc" (Linea 2 (Texto "def" Vacio)))
--- abc
---   def
 
 imprimir :: Doc -> IO ()
 imprimir d = putStrLn (mostrar d)
