@@ -56,13 +56,9 @@ aplanar = foldDoc
   (\line rec -> texto " " <+> rec)
 
 pponADoc :: PPON -> Doc
-pponADoc = foldPPON 
-  (\t -> texto (show t)) 
-  (\i -> texto (show i)) 
-  (\pares -> entreLlaves (map (aplanar) (map (\(x, y) -> texto (show x) <+> texto ": " <+> y) pares)))
-
-pericles, merlina, addams, familias :: PPON
-pericles = ObjetoPP [("nombre", TextoPP "Pericles"), ("edad", IntPP 30)]
-merlina = ObjetoPP [("nombre", TextoPP "Merlina"), ("edad", IntPP 24)]
-addams = ObjetoPP [("0", pericles), ("1", merlina)]
-familias = ObjetoPP [("Addams", addams)]
+pponADoc (TextoPP s) = texto (show s)
+pponADoc (IntPP i) = texto (show i)
+pponADoc (ObjetoPP pares) =
+  if pponObjetoSimple (ObjetoPP pares)
+    then aplanar (entreLlaves (map (\(x,y) -> texto (show x) <+> texto ": " <+> pponADoc y) pares))
+    else entreLlaves (map (\(x,y) -> texto (show x) <+> texto ": " <+> pponADoc y) pares)

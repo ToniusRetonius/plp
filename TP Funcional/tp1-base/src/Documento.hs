@@ -56,10 +56,10 @@ unirTextos s (Texto s' d) = Texto (s++s') d
   d1
   
 indentar :: Int -> Doc -> Doc
-indentar i = if i < 0 then error "No se puede indentar negativo" else foldDoc 
+indentar i = foldDoc 
   Vacio 
   (\text rec -> Texto text rec) 
-  (\line rec -> Linea (line + i) rec)  --- preguntar si hago if line == 0 then Linea i rec else Linea (line + i) rec (resuelve pero después rompe)
+  (\line rec -> Linea (line + i) rec)  
 
 mostrar :: Doc -> String
 mostrar = foldDoc 
