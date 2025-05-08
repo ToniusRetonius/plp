@@ -22,5 +22,7 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Práctica 3 :[ Demostración en Lógica Proposicional](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/3/solve.pdf)
 
+- Práctica 4 : [ Cálculo λ : Tipado y Semántica Operacional](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/4/solve.pdf)
+
 # TP Funcional
 - Presentación TP : [Informe](https://github.com/ToniusRetonius/plp/blob/main/TP%20Funcional/Entrega/informe.pdf)
