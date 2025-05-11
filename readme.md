@@ -28,6 +28,8 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 - Presentación TP : [Informe](https://github.com/ToniusRetonius/plp/blob/main/TP%20Funcional/Entrega/informe.pdf)
 
 # Práctica Primer Parcial
-1C2024 parcial : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/1C2024P.hs)
+- 1C2024 parcial : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/1C2024P.hs)
 
-1C2024 recu : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/1C2024R.hs)
+- 1C2024 recu : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/1C2024R.hs)
+
+- 2C2024 parcial : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/2C2024P/enunciado.pdf)
