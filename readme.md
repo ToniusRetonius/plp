@@ -30,4 +30,4 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 # Práctica Primer Parcial
 1C2024 parcial : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/1C2024P.hs)
 
-1C2024 recu : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/enunciado.pdf)
+1C2024 recu : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/1C2024R.hs)
