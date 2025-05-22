@@ -12,6 +12,7 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Teórica 4 :[ Cálculo λ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T4.pdf)
  
+- Teórica 5 : [ Unificación e Inferencia de Tipos](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T5.pdf)
 
 # Prácticas Resueltas
 - Práctica 0 : [ Pre-práctica de programación funcional](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/0/solve.pdf)
