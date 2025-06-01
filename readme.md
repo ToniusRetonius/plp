@@ -14,6 +14,8 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
  
 - Teórica 5 : [ Unificación e Inferencia de Tipos](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T5.pdf)
 
+- Teórica 6 : [ Lógica de Primer Orden](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T6.pdf)
+
 # Prácticas Resueltas
 ## Primer Parcial
 - Práctica 0 : [ Pre-práctica de programación funcional](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/0/solve.pdf)
