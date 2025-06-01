@@ -25,6 +25,8 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Práctica 4 : [ Cálculo λ : Tipado y Semántica Operacional](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/4/solve.pdf)
 
+- Práctica 5 : [ Inferencia de tipos ](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/5/solve.pdf)
+
 # TP Funcional
 - Presentación TP : [Informe](https://github.com/ToniusRetonius/plp/blob/main/TP%20Funcional/Entrega/informe.pdf)
 
