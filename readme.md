@@ -16,6 +16,8 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Teórica 6 : [ Lógica de Primer Orden](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T6.pdf)
 
+- Teórica 7 : [ Resolución Lógica](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T7.pdf)
+
 # Prácticas Resueltas
 ## Primer Parcial
 - Práctica 0 : [ Pre-práctica de programación funcional](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/0/solve.pdf)
@@ -30,6 +32,8 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 ## Segundo Parcial
 - Práctica 5 : [ Inferencia de tipos ](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/5/solve.pdf)
+
+- Práctica 6 : [ Lógica de Primer Orden](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/6/solve.pdf)
 
 # Trabajos Prácticos
 ## Funcional
