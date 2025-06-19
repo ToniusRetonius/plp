@@ -12,7 +12,10 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Teórica 4 :[ Cálculo λ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T4.pdf)
  
-- Teórica 5 : [ Unificación e Inferencia de Tipos](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T5.pdf)
+- Inferencia de Tipos 
+    - [Teórica 5](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T5.pdf)
+    - [Práctica 7](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P7/resumen.pdf)
+
 
 - Teórica 6 : [ Lógica de Primer Orden](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T6.pdf)
 
