@@ -12,12 +12,13 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Teórica 4 :[ Cálculo λ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T4.pdf)
  
-- Inferencia de Tipos : [ Teórica 5 ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T5.pdf)[ Práctica 7](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P7/resumen.pdf)
+- Inferencia de Tipos : [ Teórica 5](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T5.pdf)[ Práctica 7](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P7/resumen.pdf)
 
+- Lógica de Primer Orden : [ Teórica 6](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T6.pdf)[ Práctica 8](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P8/resumen.pdf)
 
-- Teórica 6 : [ Lógica de Primer Orden](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T6.pdf)
+- Resolución Lógica : [ Teórica 7 ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T7.pdf)
 
-- Teórica 7 : [ Resolución Lógica](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T7.pdf)
+- Programación Lógica [Práctica 9 - 10](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P9-10/resumen.pdf)
 
 # Prácticas Resueltas
 ## Primer Parcial
