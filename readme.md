@@ -37,9 +37,14 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Práctica 6 : [ Lógica de Primer Orden](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/6/solve.pdf)
 
+- Práctica 8 : [ Programación Lógica](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/8/solve.pdf)
+
 # Trabajos Prácticos
-## Funcional
+## Paradigma Funcional
 - Presentación TP : [Informe](https://github.com/ToniusRetonius/plp/blob/main/TP%20Funcional/Entrega/informe.pdf)
+
+## Paradigma Lógico
+- Presentación TP : [Informe](https://github.com/ToniusRetonius/plp/blob/main/TP%20L%C3%B3gico/Informe.pdf)
 
 # Práctica para Parciales 
 ## Primer Parcial
