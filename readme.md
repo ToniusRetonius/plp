@@ -16,7 +16,7 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Lógica de Primer Orden : [ Teórica 6](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T6.pdf)[ Práctica 8](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P8/resumen.pdf)
 
-- Resolución Lógica : [ Teórica 7 ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T7.pdf)
+- Resolución Lógica : [ Teórica 7 ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T7.pdf) [ Práctica 11](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P11/resumen.pdf)
 
 - Programación Lógica [Práctica 9 - 10](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P9-10/resumen.pdf)
 
