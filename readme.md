@@ -20,6 +20,8 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Programación Lógica [Práctica 9 - 10](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P9-10/resumen.pdf)
 
+- Programación Orientada a Objetos [ Teórica 9](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T9.pdf)
+
 # Prácticas Resueltas
 ## Primer Parcial
 - Práctica 0 : [ Pre-práctica de programación funcional](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/0/solve.pdf)
