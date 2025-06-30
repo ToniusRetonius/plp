@@ -43,6 +43,8 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Práctica 8 : [ Programación Lógica](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/8/solve.pdf)
 
+- Práctica 9 : [ Programación Orientada a Objetos (SmallTalk)](https://github.com/ToniusRetonius/plp/blob/main/Gu%C3%ADas%20Pr%C3%A1cticas/9/solve.pdf)
+
 # Trabajos Prácticos
 ## Paradigma Funcional
 - Presentación TP : [Informe](https://github.com/ToniusRetonius/plp/blob/main/TP%20Funcional/Entrega/informe.pdf)
@@ -50,13 +52,5 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 ## Paradigma Lógico
 - Presentación TP : [Informe](https://github.com/ToniusRetonius/plp/blob/main/TP%20L%C3%B3gico/Informe.pdf)
 
-# Práctica para Parciales 
-## Primer Parcial
-- 1C2024 parcial : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024P/1C2024P.hs)
 
-- 1C2024 recu : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/1C2024R/1C2024R.hs)
-
-- 2C2024 parcial : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/2C2024P/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/2C2024P/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/2C2024P/2C2024P.hs)
-
-- 2C2024 recu : [ Enunciado](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/2C2024R/enunciado.pdf) [ Solve](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/2C2024R/solve.pdf) [ Código HS](https://github.com/ToniusRetonius/plp/blob/main/Parciales/Primero/2C2024R/2C2024R.hs)
 
