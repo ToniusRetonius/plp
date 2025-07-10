@@ -10,7 +10,7 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Sistemas Deductivos, Deducción Natural para la Lógica Proposicional :[ Teórica 3](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T3.pdf) [Práctica 4](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P4/Resumen_Clase_Pr%C3%A1ctica_Sistemas_Deductivos.pdf)
 
-- Cálculo λ :[ Teórica 4](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T4.pdf)
+- Cálculo λ :[ Teórica 4](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T4.pdf) [Práctica 5](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P5-6/Resumen_Clase_Pr%C3%A1ctica_C%C3%A1lculo_Lambda.pdf) [ Práctica 6](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P5-6/Resumen_Clase_Pr%C3%A1ctica_C%C3%A1lculo_Lambda_2.pdf)
  
 - Inferencia de Tipos : [ Teórica 5](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T5.pdf)[ Práctica 7](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P7/resumen.pdf)
 
