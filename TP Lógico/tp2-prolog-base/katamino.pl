@@ -159,3 +159,8 @@ sublistaMod5(Lista) :- length(Lista, I), 0 is I mod 5.
 % X = 0 ;
 % false.
 
+
+% Probar reversibilidad en sublista(-D,+T,+L,+R) todo
+
+% siempre termina y siempre da el resultado correcto (instancia D en todos los resultados posibles) eso es que sea reversible 
+% justificamos por qué eso ocurre : no hya recursiones infinitas mirar sección útil. Demostrar que append instancia no instanica infinitamente porqu eD toma finitio valores queremos que esti sea así, como length utiliza una lista ya instanciada, va bien. NO hacer trace del código. Mirar la sección útil de cómo justificar.
