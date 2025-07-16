@@ -6,7 +6,7 @@ Cursada 1c 2025 de Paradigmas de Lenguajes de Programación
 
 - Esquemas de Recursión y Tipos de Datos Recursivos  :[Teórica 1 ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T1.pdf) [ Práctica 2](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P2/Resumen_Clase_Pr%C3%A1ctica_Haskell_2.pdf)
 
-- Razonamiento Ecuacional e Inducción Estructural :[ Teórica 2 ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T2.pdf) 
+- Razonamiento Ecuacional e Inducción Estructural :[ Teórica 2 ](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T2.pdf) [Práctica 3](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P3/Resumen_Clase_Pr%C3%A1ctica_Demostraci%C3%B3n_Programaci%C3%B3n_L%C3%B3gica.pdf)
 
 - Sistemas Deductivos, Deducción Natural para la Lógica Proposicional :[ Teórica 3](https://github.com/ToniusRetonius/plp/blob/main/Res%C3%BAmenes/T3.pdf) [Práctica 4](https://github.com/ToniusRetonius/plp/blob/main/Pr%C3%A1cticas/P4/Resumen_Clase_Pr%C3%A1ctica_Sistemas_Deductivos.pdf)
 
